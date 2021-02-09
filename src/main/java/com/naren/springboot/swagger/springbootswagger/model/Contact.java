@@ -1,4 +1,4 @@
-package com.naren.springboot.swagger.springbootswagger.controller;
+package com.naren.springboot.swagger.springbootswagger.model;
 
 
 import lombok.Data;

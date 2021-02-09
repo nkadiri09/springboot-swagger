@@ -1,6 +1,7 @@
 package com.naren.springboot.swagger.springbootswagger.controller;
 
 
+import com.naren.springboot.swagger.springbootswagger.model.Contact;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;

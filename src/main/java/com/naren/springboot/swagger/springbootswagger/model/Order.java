@@ -1,10 +1,11 @@
-package com.naren.springboot.swagger.springbootswagger.order.model;
+package com.naren.springboot.swagger.springbootswagger.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.util.Date;
+import java.util.List;
 
 @Data
 @AllArgsConstructor
@@ -16,4 +17,5 @@ public class Order {
     private long costInCents;
     private boolean isComplete;
     private Date shipDate;
+    private List<Item> items;
 }
